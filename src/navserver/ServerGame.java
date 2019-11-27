@@ -5,10 +5,22 @@
  */
 package navserver;
 
+import java.net.Socket;
+import java.util.ArrayList;
+import javax.swing.Box;
+
 /**
  *
  * @author informatica
  */
 public class ServerGame {
+    private Socket socket;
+    private String sName;
+    public ServerGame(Socket socket, String sName) 
+    {
+        this.socket = socket;
+        this.sName = sName;
+    }
+    
     
 }
