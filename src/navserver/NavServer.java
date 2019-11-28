@@ -43,7 +43,7 @@ public class NavServer {
 
                 //get username from client side
                 try {
-                    System.out.println(nPlayer - 1 + " accepted");
+                    System.out.println(nPlayer + " accepted");
                     toClient.writeInt(nPlayer);
                 } catch (IOException ex) {
                 }
